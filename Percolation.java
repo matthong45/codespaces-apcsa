@@ -92,6 +92,7 @@ public class Percolation {
         //What happened?
         //Now what
         //One more time through this cycle
+        //OK. I fixed it now.
     }
 
     private boolean tryBounds(int row, int col) {
