@@ -11,7 +11,7 @@ public class PasswordStrength {
     }
 
     private static Set<String> tooCommonPasswords = Set.of("123","Password","12345678", "Password1", "Querty123", "iloveyou", "guest", "a1b2c3");
-
+    private static Set<String> specialChars = Set.of("!","@","#", "$", "%", "^", "&", "*", "(", ")");
     public static void main(String args[]){
         try (Scanner scan = new Scanner(System.in)) {
             System.out.println("What password would you like to classify?");
@@ -22,6 +22,7 @@ public class PasswordStrength {
 
     public static passwordCategory evaluatePassword(String password)
     {
+        
         if(tooCommonPasswords.contains(password))
         {
             return passwordCategory.UNACCEPTABLE;

@@ -1,0 +1,67 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "PercolationStats",
+            "request": "launch",
+            "mainClass": "PercolationStats",
+            "projectName": "codespaces-blank_ba63f403"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Battleship",
+            "request": "launch",
+            "mainClass": "Battleship",
+            "projectName": "codespaces-blank_ba63f403"
+        },
+        {
+            "type": "java",
+            "name": "HelloGoodbye",
+            "request": "launch",
+            "mainClass": "HelloWorldAlgo1.HelloGoodbye",
+            "projectName": "codespaces-blank_ba63f403",
+            "args": [
+                "Matt",
+                "Danny"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "HelloWorld",
+            "request": "launch",
+            "mainClass": "HelloWorldAlgo1.HelloWorld",
+            "projectName": "codespaces-blank_ba63f403"
+        },
+        {
+            "type": "java",
+            "name": "RandomWord",
+            "request": "launch",
+            "mainClass": "HelloWorldAlgo1.RandomWord",
+            "projectName": "codespaces-blank_ba63f403"
+        },
+        {
+            "type": "java",
+            "name": "PasswordStrength",
+            "request": "launch",
+            "mainClass": "PasswordStrength",
+            "projectName": "codespaces-blank_ba63f403"
+        },
+        {
+            "type": "java",
+            "name": "QuickStart",
+            "request": "launch",
+            "mainClass": "QuickStart",
+            "projectName": "codespaces-blank_ba63f403"
+        }
+    ]
+}
