@@ -91,6 +91,7 @@ public class Percolation {
         System.out.println("Hello");
         //What happened?
         //Now what
+        //One more time through this cycle
     }
 
     private boolean tryBounds(int row, int col) {
