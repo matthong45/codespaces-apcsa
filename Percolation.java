@@ -86,6 +86,11 @@ public class Percolation {
 
     }
 
+    private void addingTemp()
+    {
+        
+    }
+
     private boolean tryBounds(int row, int col) {
         if (row < 1 || row > dimension || col < 1 || col > dimension || !isOpen(row, col)) {
             return false;
