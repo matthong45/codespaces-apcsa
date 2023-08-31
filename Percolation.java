@@ -88,7 +88,7 @@ public class Percolation {
 
     private void addingTemp()
     {
-        
+        System.out.println("Hello");
     }
 
     private boolean tryBounds(int row, int col) {
