@@ -10,6 +10,7 @@ public class Percolation {
     private final int tailIndex;
     private final boolean[][] openStatus;
     private int numOpen;
+    private int testingGitHub;
 
     // creates n-by-n grid, with all sites initially blocked
     public Percolation(int n) {
