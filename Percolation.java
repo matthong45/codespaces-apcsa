@@ -11,6 +11,7 @@ public class Percolation {
     private final boolean[][] openStatus;
     private int numOpen;
     private int testingGithubInClassTrainWreck;
+    // This is really important code on my private branch.
 
     // creates n-by-n grid, with all sites initially blocked
     public Percolation(int n) {
